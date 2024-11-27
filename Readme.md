@@ -27,9 +27,7 @@ Try not to read ahead – do one task at a time. Work incrementally.
 4. Calling Add with a negative number will throw an exception "Negatives not allowed: " listing all negative numbers that were in the list of numbers.
    1. Example `"-1,2"` throws "Negatives not allowed: -1"
    2. Example `"2,-4,3,-5"` throws "Negatives not allowed: -4,-5"
-5. Numbers bigger than 1000 should be ignored.
-   * Example: `"1001,2"` returns 2
-6. Allow the Add method to handle a different delimiter:
+5. Allow the Add method to handle a different delimiter:
    1. To change the delimiter, the beginning of the string will contain a separate line that looks like this: `"//[delimiter]\n[numbers]"`
    2. Example: `"//;\n1;2"` should return 3 (the delimiter is ;)
    3. This first line is optional; all existing scenarios (using , or \n) should work as before.
