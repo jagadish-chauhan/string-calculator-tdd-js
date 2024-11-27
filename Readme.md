@@ -3,7 +3,7 @@
 ## A Simple String Calculator Using TDD Kata
 
 ## Purpose
-Learn to use Test Driven Development to create a program.
+Assesment and Learn to use Test Driven Development to create a program.
 
 ## Description
 This kata was created by Jagadish Chauhan and is designed to help you learn TDD coding and refactoring.  
